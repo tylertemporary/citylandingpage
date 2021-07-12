@@ -63,5 +63,6 @@ window.console.log(window.document);
 window.console.log(window);
 
 window.onclick = () => {
-    window.console.log("Fired");
+    createObject();
 }
+
