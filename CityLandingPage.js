@@ -59,3 +59,5 @@ function initLanding() {
 }
 jQuery(document).ready(initLanding)
 
+window.console.log(window.document);
+window.console.log(window);
