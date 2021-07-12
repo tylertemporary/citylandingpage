@@ -8,7 +8,6 @@ function injectScript(src) {
     });
 }
 
-injectScript("https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js");
 injectScript("https://webtracking-v01.bpmonline.com/JS/track-cookies.js");
 injectScript("https://webtracking-v01.bpmonline.com/JS/create-object.js");
 
