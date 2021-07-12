@@ -59,4 +59,5 @@ function initLanding() {
 }
 jQuery(document).ready(initLanding)
 
-window.console.log("Loaded.....");
+const submitButtons = document.querySelectorAll('[type=submit]');
+window.console.log(submitButtons);
