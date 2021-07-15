@@ -3,7 +3,7 @@ window.onclick = () => {
         messenger: "formBuilder",
         name: "formBuilder:postData",
         fields: {
-            company: "TestCompany"
+            company: document.getElementById('text-0000000a').value
         }
     },'*')
 }
