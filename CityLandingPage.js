@@ -2,7 +2,7 @@ window.onclick = () => {
     window.parent.postMessage({
         messenger: "formBuilder",
         name: "formBuilder:postData",
-        data: {
+        fields: {
             company: "TestCompany"
         }
     },'*')
