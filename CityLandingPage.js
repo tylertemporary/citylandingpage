@@ -1,6 +1,7 @@
 window.onclick = () => {
     window.parent.postMessage({
-        code: "FormBuilder",
+        messenger: "formBuilder",
+        name: "formBuilder:postData",
         data: {
             company: "TestCompany"
         }
