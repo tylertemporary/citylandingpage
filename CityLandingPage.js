@@ -1,4 +1,8 @@
 window.onclick = () => {
-    console.log("fiired");
-    window.parent.postMessage('foo','*')
+    window.parent.postMessage({
+        code: "FormBuilder",
+        data: {
+            company: "TestCompany"
+        }
+    },'*')
 }
